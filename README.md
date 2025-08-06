@@ -52,8 +52,8 @@ Supports:
 A user-friendly **Gradio interface** is included with:
 - Chat window
 - Voice input button
-- File upload for custom datasets
 - Bot avatar and emojis for enhanced UX
+- Ready Examples
 
 ### ⚖️ 8. Job Comparison (LLM-Powered)
 Users can compare 2 jobs side by side using our custom prompt chain.
@@ -84,7 +84,7 @@ EVACareerMate/
 ├── eva_careers_chatbot.ipynb # Main notebook
 ├── eva_careers_chatbot.py # Converted script
 ├── eva_current_openings.json # Job dataset
-├── evaCareerMateUI.png # the UI image
+├── evaCareerMateUI.png # UI sample
 ├── requirements.txt # Dependencies
 ├── README.md # This file
 │
@@ -100,20 +100,21 @@ EVACareerMate/
 │
 ├── architecture/
 │ ├── eva.drawio
-│ └── raggg.png
+│ ├── raggg.png
 │ └── evarag.png
 
 ---
 
 ## ⚙️ Installation
 
-```bash
+
 git clone https://github.com/MinaEd/EVACareerMate.git
 cd EVACareerMate
 pip install -r requirements.txt
 
+---
 
-🧩 Limitations & Future Work
+## 🧩 Limitations & Future Work
 Replace T5-Large with a more fluent open LLM like Mistral or Zephyr
 
 Improve job comparison quality and prompt design
@@ -122,5 +123,9 @@ Expand career path guidance
 
 Support Arabic or multilingual input
 
-🤝 Contributors
+--- 
+
+## 🤝 Contributors
 Mina Edwar Dawood – AI Engineer
+
+---
