@@ -79,3 +79,48 @@ The bot detects and handles **all major intents**, such as:
 
 ## 🗂️ Project Structure
 
+EVACareerMate/
+│
+├── eva_careers_chatbot.ipynb # Main notebook
+├── eva_careers_chatbot.py # Converted script
+├── eva_current_openings.json # Job dataset
+├── evaCareerMateUI.png # the UI image
+├── requirements.txt # Dependencies
+├── README.md # This file
+│
+├── assets/
+│ ├── botlogobig.png
+│ ├── botlogoemoji.png
+│ ├── user.png
+│
+├── conversation_samples_ss/
+│ ├── conversationS1.png
+│ ├── conversationVoices1.png
+│ └── ...
+│
+├── architecture/
+│ ├── eva.drawio
+│ └── raggg.png
+│ └── evarag.png
+
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/MinaEd/EVACareerMate.git
+cd EVACareerMate
+pip install -r requirements.txt
+
+
+🧩 Limitations & Future Work
+Replace T5-Large with a more fluent open LLM like Mistral or Zephyr
+
+Improve job comparison quality and prompt design
+
+Expand career path guidance
+
+Support Arabic or multilingual input
+
+🤝 Contributors
+Mina Edwar Dawood – AI Engineer
