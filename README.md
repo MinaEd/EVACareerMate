@@ -77,40 +77,37 @@ The bot detects and handles **all major intents**, such as:
 
 ---
 
+
 ## 🗂️ Project Structure
 
-EVACareerMate/
-│
-├── eva_careers_chatbot.ipynb # Main notebook
-├── eva_careers_chatbot.py # Converted script
-├── eva_current_openings.json # Job dataset
-├── evaCareerMateUI.png # UI sample
-├── requirements.txt # Dependencies
-├── README.md # This file
-│
-├── assets/
-│ ├── botlogobig.png
-│ ├── botlogoemoji.png
-│ ├── user.png
-│
-├── conversation_samples_ss/
-│ ├── conversationS1.png
-│ ├── conversationVoices1.png
-│ └── ...
-│
-├── architecture/
-│ ├── eva.drawio
-│ ├── raggg.png
-│ └── evarag.png
+- EVACareerMate/
+  - `eva_careers_chatbot.ipynb` - Main notebook
+  - `eva_careers_chatbot.py` - Converted script
+  - `eva_current_openings.json` - Job dataset
+  - `evaCareerMateUI.png` - UI sample
+  - `requirements.txt` - Dependencies
+  - `README.md` - Project documentation
+  - assets/
+    - `botlogobig.png`
+    - `botlogoemoji.png`
+    - `user.png`
+  - conversation_samples_ss/
+    - `conversationS1.png`
+    - `conversationVoices1.png`
+  - architecture/
+    - `eva.drawio`
+    - `raggg.png`
+    - `evarag.png`
 
 ---
 
 ## ⚙️ Installation
 
-
+```bash
 git clone https://github.com/MinaEd/EVACareerMate.git
 cd EVACareerMate
 pip install -r requirements.txt
+```
 
 ---
 
