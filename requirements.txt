@@ -1,0 +1,37 @@
+# Core Libraries
+pandas
+numpy
+scikit-learn
+rapidfuzz
+spacy
+transformers
+sentence-transformers
+langchain
+langchain-community
+langchain-core
+chromadb
+huggingface-hub
+torch
+accelerate
+bitsandbytes
+sentencepiece
+
+# Gradio and UI
+gradio
+
+# Audio
+openai-whisper
+gtts
+ffmpeg-python
+
+# Selenium (for scraping or automation)
+selenium
+
+# Optional (for loading specific models like mistralai if needed)
+mistralai
+
+# For PDF and file handling
+pypdf
+
+# For embedding support
+fastembed
