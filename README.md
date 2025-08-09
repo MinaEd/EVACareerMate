@@ -8,8 +8,8 @@ Welcome to **EVA CareerMate** — a smart, conversational assistant designed for
 
 ## 🚀 Features
 
-### 📌 1. Job Scraping (Egypt-Only)
-We dynamically **scrape the latest 10 job openings** from EVA’s official job board, filtering by **location = Egypt**, to keep our **manually collected dataset** fresh and relevant.
+### 📌 1. Job Scraping 
+We dynamically **scrape the latest 10 job openings** from EVA’s official job board, to keep our **manually collected dataset** fresh and relevant.
 
 ### 🧠 2. Intent & Entity Recognition
 Using `spaCy`'s `en_core_web_sm` model, we've built:
@@ -26,7 +26,7 @@ We use a full **LangChain RAG pipeline**:
 - Text loading + chunking with `RecursiveCharacterTextSplitter`
 - Vector storage with **ChromaDB**
 - Semantic search using **HuggingFace sentence-transformers**
-- LLM response generation using **T5-Large**
+- LLM response generation using **Gemini**
 
 ✅ Implemented chains for:
 - `job_info`
@@ -34,7 +34,7 @@ We use a full **LangChain RAG pipeline**:
 - `comparison between jobs`
 
 ⚠️ **Limitations:**
-- **T5-Large** has response quality limitations; can be upgraded to a more fluent LLM.
+- **GEMINI** has response quality limitations; can be upgraded to a more fluent LLM.
 - Prompt templates and chain routing need more tuning.
 - Introduced a `rag_fallback` method to cover **"welcome"**, **"compare"**, or **"growth"** intents when traditional logic fails.
 
@@ -58,7 +58,6 @@ A user-friendly **Gradio interface** is included with:
 ### ⚖️ 8. Job Comparison (LLM-Powered)
 Users can compare 2 jobs side by side using our custom prompt chain.
 
-⚠️ Limitation: Because we rely on an **open-source LLM**, some comparisons may be generic or miss subtle differences. More fine-tuning needed.
 
 ### 🧭 9. Career Path Guidance *(Work in Progress)*
 A separate RAG chain is built to help users explore **career growth paths** based on job roles.
@@ -87,6 +86,7 @@ The bot detects and handles **all major intents**, such as:
   - `evaCareerMateUI.png` - UI sample
   - `requirements.txt` - Dependencies
   - `README.md` - Project documentation
+  - `testcases and notes.txt` - TestCases and Notes
   - assets/
     - `botlogobig.png`
     - `botlogoemoji.png`

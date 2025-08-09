@@ -1,0 +1,35 @@
+Queries:
+1.Hi --> voice
+2.Are there any jobs in Cairo? --> Example button
+3.Are there any jobs in Riyadh? --> User Input
+4.Is 1 year of experience enough for UX Designer? --> User Input
+5.What are the requirements for Scrum Master? --> Voice
+6.What is the experience needed for this job?
+7.What is the department of this role?
+8.Are there available roles for fresh?
+9.compare between UX Designer and Quality Director? -->button
+10.What does Trade Marketing Manager do?
+11.Are there any jobs in Aswan?
+12.What is the description of intrnl comm specialist?
+13.What is AI? --> random to make sure he doesn't answer except on the data
+14.Do I have enough experience for Quality Director with 2 years? --> button
+15.goodbye.
+
+
+Notes:
+### Tokens needed ###
+HuggingFace Token
+Gemini Token
+
+### Notebook RunTime: ###
+with GPU: 5 mins
+without GPU: 10 mins
+
+### Inference ###
+gpu: max 10 seconds
+cpu: max 30 seconds
+
+### To use voice ###
+click on the mic then permission then record then when u finish click on send voice message!
+
+  
